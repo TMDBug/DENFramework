@@ -8,7 +8,7 @@
     │   │   ├── Vender       第三方库
     │   │   ├── Category     类扩展
     │   │   ├── Tool         工具类
-    │   │   └── BaseMVC      基础类（Controller/model/view等）
+    │   │   └── BaseMVC      基础类（Controller/model/view）
     │   │       ├── Controllers
     │   │       ├── Views
     │   │       └── Models
@@ -25,14 +25,14 @@
 
 ## 其他说明：
     1.使用了LaunchScreen作为启动图；
-    2.为了更好的扩展以及自己的代码风格及封装习惯，本框架没有写封装任何类；
+    2.为了更好的扩展以及自己的代码风格及封装习惯，本框架没有封装任何类；
     
 ## 联系我：
     > 如有其他问题或者指出不足，请 issue 或 联系我；
-    > QQ:   408783849
+    > QQ:       408783849
     > Email:    408783849@qq.com
 
 ```
 update by 2018-01-04
-Author by Den [https://github.com/tmdbug]
+Author by [Den](https://tmdbug.com)
 ```
