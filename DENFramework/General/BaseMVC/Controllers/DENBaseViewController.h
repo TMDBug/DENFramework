@@ -10,4 +10,8 @@
 
 @interface DENBaseViewController : UIViewController
 
+
+- (void)showStatusBarSuccessStr:(NSString *)tipStr;
+- (void)showStatusBarErrorStr:(NSString *)errorStr;
+
 @end

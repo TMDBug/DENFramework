@@ -12,6 +12,13 @@
 		0F737E381FFDF8A1005E2076 /* DENHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E371FFDF8A1005E2076 /* DENHomeViewController.m */; };
 		0F737E3B1FFDF906005E2076 /* DENNaivigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E3A1FFDF906005E2076 /* DENNaivigationViewController.m */; };
 		0F737E3E1FFDF94C005E2076 /* DENTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E3D1FFDF94C005E2076 /* DENTabBarController.m */; };
+		0F737E4820026B2F005E2076 /* 手书体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F737E4720026B2F005E2076 /* 手书体.ttf */; };
+		0F737E5020026F6E005E2076 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4A20026F6E005E2076 /* JDStatusBarNotification.m */; };
+		0F737E5120026F6E005E2076 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4C20026F6E005E2076 /* JDStatusBarView.m */; };
+		0F737E5220026F6E005E2076 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4F20026F6E005E2076 /* JDStatusBarStyle.m */; };
+		0F737E5620026FA2005E2076 /* NSString+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E5420026FA2005E2076 /* NSString+Additional.m */; };
+		0F737E592002712B005E2076 /* DENBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E582002712B005E2076 /* DENBaseView.m */; };
+		0F737E5C20027140005E2076 /* DENBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E5B20027140005E2076 /* DENBaseModel.m */; };
 		0F96D6211FF7F4D100B8F01E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96D6201FF7F4D100B8F01E /* AppDelegate.m */; };
 		0F96D6291FF7F4D100B8F01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F96D6281FF7F4D100B8F01E /* Assets.xcassets */; };
 		0F96D62C1FF7F4D100B8F01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F96D62A1FF7F4D100B8F01E /* LaunchScreen.storyboard */; };
@@ -52,6 +59,19 @@
 		0F737E3A1FFDF906005E2076 /* DENNaivigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENNaivigationViewController.m; sourceTree = "<group>"; };
 		0F737E3C1FFDF94C005E2076 /* DENTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENTabBarController.h; sourceTree = "<group>"; };
 		0F737E3D1FFDF94C005E2076 /* DENTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENTabBarController.m; sourceTree = "<group>"; };
+		0F737E4720026B2F005E2076 /* 手书体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "手书体.ttf"; sourceTree = "<group>"; };
+		0F737E4A20026F6E005E2076 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		0F737E4B20026F6E005E2076 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		0F737E4C20026F6E005E2076 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		0F737E4D20026F6E005E2076 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		0F737E4E20026F6E005E2076 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		0F737E4F20026F6E005E2076 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		0F737E5420026FA2005E2076 /* NSString+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additional.m"; sourceTree = "<group>"; };
+		0F737E5520026FA2005E2076 /* NSString+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additional.h"; sourceTree = "<group>"; };
+		0F737E572002712B005E2076 /* DENBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENBaseView.h; sourceTree = "<group>"; };
+		0F737E582002712B005E2076 /* DENBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENBaseView.m; sourceTree = "<group>"; };
+		0F737E5A20027140005E2076 /* DENBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENBaseModel.h; sourceTree = "<group>"; };
+		0F737E5B20027140005E2076 /* DENBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENBaseModel.m; sourceTree = "<group>"; };
 		0F96D61C1FF7F4D100B8F01E /* DENFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DENFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F96D61F1FF7F4D100B8F01E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F96D6201FF7F4D100B8F01E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +161,28 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0F737E4920026F6E005E2076 /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				0F737E4A20026F6E005E2076 /* JDStatusBarNotification.m */,
+				0F737E4B20026F6E005E2076 /* JDStatusBarStyle.h */,
+				0F737E4C20026F6E005E2076 /* JDStatusBarView.m */,
+				0F737E4D20026F6E005E2076 /* JDStatusBarNotification.h */,
+				0F737E4E20026F6E005E2076 /* JDStatusBarView.h */,
+				0F737E4F20026F6E005E2076 /* JDStatusBarStyle.m */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		0F737E5320026F81005E2076 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0F737E5520026FA2005E2076 /* NSString+Additional.h */,
+				0F737E5420026FA2005E2076 /* NSString+Additional.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 		0F96D6131FF7F4D100B8F01E = {
@@ -233,6 +275,7 @@
 		0F96D6561FF7F9F500B8F01E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E4920026F6E005E2076 /* JDStatusBarNotification */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -240,6 +283,7 @@
 		0F96D6571FF7FA0A00B8F01E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E5320026F81005E2076 /* NSString */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -263,6 +307,7 @@
 		0F96D65A1FF7FCDF00B8F01E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E4720026B2F005E2076 /* 手书体.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -301,6 +346,8 @@
 		0F96D65F1FF7FE5C00B8F01E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E5A20027140005E2076 /* DENBaseModel.h */,
+				0F737E5B20027140005E2076 /* DENBaseModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +355,8 @@
 		0F96D6601FF7FE6F00B8F01E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E572002712B005E2076 /* DENBaseView.h */,
+				0F737E582002712B005E2076 /* DENBaseView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -441,6 +490,7 @@
 			files = (
 				0F96D62C1FF7F4D100B8F01E /* LaunchScreen.storyboard in Resources */,
 				0F737E311FFDF491005E2076 /* Localizable.strings in Resources */,
+				0F737E4820026B2F005E2076 /* 手书体.ttf in Resources */,
 				0F737E2B1FFDF3CE005E2076 /* InfoPlist.strings in Resources */,
 				0F96D6291FF7F4D100B8F01E /* Assets.xcassets in Resources */,
 			);
@@ -521,11 +571,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F737E5C20027140005E2076 /* DENBaseModel.m in Sources */,
+				0F737E5620026FA2005E2076 /* NSString+Additional.m in Sources */,
+				0F737E592002712B005E2076 /* DENBaseView.m in Sources */,
 				0F96D62F1FF7F4D100B8F01E /* main.m in Sources */,
+				0F737E5020026F6E005E2076 /* JDStatusBarNotification.m in Sources */,
 				0F737E3E1FFDF94C005E2076 /* DENTabBarController.m in Sources */,
 				0F737E381FFDF8A1005E2076 /* DENHomeViewController.m in Sources */,
 				0F737E3B1FFDF906005E2076 /* DENNaivigationViewController.m in Sources */,
 				0F96D6211FF7F4D100B8F01E /* AppDelegate.m in Sources */,
+				0F737E5220026F6E005E2076 /* JDStatusBarStyle.m in Sources */,
+				0F737E5120026F6E005E2076 /* JDStatusBarView.m in Sources */,
 				0F96D6691FF804E600B8F01E /* DENBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
