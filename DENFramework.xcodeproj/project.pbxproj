@@ -113,10 +113,34 @@
 		0F737E351FFDF853005E2076 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0F737E42200257B6005E2076 /* Controller */,
+				0F737E45200257E4005E2076 /* View */,
+				0F737E46200257EB005E2076 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0F737E42200257B6005E2076 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				0F737E361FFDF8A1005E2076 /* DENHomeViewController.h */,
 				0F737E371FFDF8A1005E2076 /* DENHomeViewController.m */,
 			);
-			path = Home;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F737E45200257E4005E2076 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F737E46200257EB005E2076 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0F96D6131FF7F4D100B8F01E = {
