@@ -27,8 +27,8 @@
     └── Pods：项目使用了CocoPods类库管理工具
 
 ## 其他说明：
-1.使用了LaunchScreen作为启动图；
-2.没有封装任何类；
+    1.使用了LaunchScreen作为启动图；
+    2.没有封装任何类；
 
 ```
 update by 2018-01-04
