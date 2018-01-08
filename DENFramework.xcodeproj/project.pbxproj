@@ -12,7 +12,6 @@
 		0F737E381FFDF8A1005E2076 /* DENHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E371FFDF8A1005E2076 /* DENHomeViewController.m */; };
 		0F737E3B1FFDF906005E2076 /* DENNaivigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E3A1FFDF906005E2076 /* DENNaivigationViewController.m */; };
 		0F737E3E1FFDF94C005E2076 /* DENTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E3D1FFDF94C005E2076 /* DENTabBarController.m */; };
-		0F737E4820026B2F005E2076 /* 手书体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F737E4720026B2F005E2076 /* 手书体.ttf */; };
 		0F737E5020026F6E005E2076 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4A20026F6E005E2076 /* JDStatusBarNotification.m */; };
 		0F737E5120026F6E005E2076 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4C20026F6E005E2076 /* JDStatusBarView.m */; };
 		0F737E5220026F6E005E2076 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F737E4F20026F6E005E2076 /* JDStatusBarStyle.m */; };
@@ -59,7 +58,6 @@
 		0F737E3A1FFDF906005E2076 /* DENNaivigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENNaivigationViewController.m; sourceTree = "<group>"; };
 		0F737E3C1FFDF94C005E2076 /* DENTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DENTabBarController.h; sourceTree = "<group>"; };
 		0F737E3D1FFDF94C005E2076 /* DENTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DENTabBarController.m; sourceTree = "<group>"; };
-		0F737E4720026B2F005E2076 /* 手书体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "手书体.ttf"; sourceTree = "<group>"; };
 		0F737E4A20026F6E005E2076 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
 		0F737E4B20026F6E005E2076 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
 		0F737E4C20026F6E005E2076 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
@@ -307,7 +305,6 @@
 		0F96D65A1FF7FCDF00B8F01E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0F737E4720026B2F005E2076 /* 手书体.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -490,7 +487,6 @@
 			files = (
 				0F96D62C1FF7F4D100B8F01E /* LaunchScreen.storyboard in Resources */,
 				0F737E311FFDF491005E2076 /* Localizable.strings in Resources */,
-				0F737E4820026B2F005E2076 /* 手书体.ttf in Resources */,
 				0F737E2B1FFDF3CE005E2076 /* InfoPlist.strings in Resources */,
 				0F96D6291FF7F4D100B8F01E /* Assets.xcassets in Resources */,
 			);
