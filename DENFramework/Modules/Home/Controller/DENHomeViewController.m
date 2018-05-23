@@ -18,11 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = NSLocalizedString(@"home", nil);
-    
-    // 第三方库JDStatusBarNotification测试
-    [self showStatusBarSuccessStr:NSLocalizedString(@"statusBar-testing", @"statusBar-testing")];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
